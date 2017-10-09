@@ -5,9 +5,11 @@
    <head>
 <style>
 div.scrollmenu {
-    background-color: #808080;
+    background-color: rgb(180, 180, 180);
     overflow: auto;
     white-space: nowrap;
+    border: 1px groove;
+    margin: 50px;
 }
 
 div.scrollmenu a {
@@ -24,20 +26,105 @@ div.scrollmenu a:hover {
 </head>
 <body>
 
+
+<!--This is a scroll menu-->
 <div class="scrollmenu">
-  <a href="#github">Github</a>
-  <a href="#explore">Explore</a>
-  <a href="#features">Features</a>
-  <a href="#enterprise">Enterprise</a>
-  <a href="#pricing">Pricing</a>
-  <a href="#signup">Sign Up</a>
+<header>
+  <h1><a href="#github" style="font-size:300%;"><b>Github</b></a></h1>
+  <div class="this repository">
+   <p>This Repository </p>
+  <form method="get" id="search" action="#">
+     <span>
+        <input type="text" value="Search..." name="s" id="s" />
+        <input name="searchsubmit" type="image" src="search.gif" value="Go" id="searchsubmit" class="btn"  />
+     </span>
+  </form>
+
+</div>
+  <a href="#explore"><b>Explore</b></a>
+  <a href="#features"><b>Features</b></a>
+  <a href="#enterprise"><b>Enterprise</b></a>
+  <a href="#pricing"><b>Pricing</b></a>
+
+  <!--The sign up and sign in link -->
+  <a href="#signup" style= "color: white" style="background-color: #008000" >  Sign Up</a>
   <a href="#signin">Sign In</a>  
+  </header>
   
 </div>
 
-<h2>knowRe/WebDevCurriculum. </h2>
-<p>knowRe WebDevelopment Curriculum for noods. </p>
+<!--This is a table-->
+<div class ="knowRe">
+<nav>
+<img src="octicon.png" alt="octicon" style="float:right;width:200px;height:200px;"> <h2 style="color:blue">knowRe/<b>WebDevCurriculum.</b> </h2>
 
+<a href="#watch"><b>Watch</b></a>
+<a href="#star"><b>Star</b></a>
+<a href="#fork"><b>Fork</b></a>
+</nav>
+</div>
+
+<div class ="webdevelopment">
+<section>
+<h3>knowRe web development for noobs. </h3>
+</section>
+</div>
+
+<div class = "code">
+<aside>
+<table style="width:100%">
+<a href="#code"><tr><th><b> Code</b></th></tr></a>
+<a href="#issues"><td>Issues</td></a>
+<a href="#pullrequests"><td>Pull Requests</td></a>
+<a href="pulse"><td> Pulse</td></a>
+<a href="graphs"><td> Graphs </td> </a>
+</table>
+
+</aside>
+</div>
+
+
+<div class ="clone" >
+<p> <b>HTTP clone URL </b> </p>
+<a href="#cloneindesktop"><b> Clone in Desktop </b></a>
+<a href="downloadzip"><b> Download Zip</b> </a>
+
+
+
+
+</div>
+<div class ="curriculum2016">
+<p>README.md</p>
+
+<p style="font-size:400%;"><b>KnowRe web development curriculum 2016.</b> </p>
+</div>
+
+<!-- This is a footer-->
+<div class="githubinc"> 
+<footer>
+<a href="#2015githubinc">2015 Github Inc</a></h1>
+  <a href="#terms">Terms</a>
+  <a href="#privacy">Privacy</a>
+  <a href="#security">Security</a>
+  <a href="#contact">Contact</a>
+  <a href="#help">Help</a>
+
+  <a href="git icon.png" width="300" height="300" alt="github icon" border="0"></a>
+
+   <div class="gitstatus"><a href="#status">Status</a>
+   <a href="#api">API</a>
+   <a href="#training">Training</a>
+   <a href="#shop">Shop</a>
+   <a href="#blog">Blog</a>
+   <a href="#about">About</a>
+   <a href="#pricing">Pricing</a>
+   
+
+
+   </div> 
+  
+</footer>
+</div>
 </body>
 </html>
 
