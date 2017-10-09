@@ -1,3 +1,122 @@
-#signup{
-	background-color: #008000;
+h2{
+	text-align:left;
+	text-decoration: none;
+	margin-left: 20px;
+
 }
+#scrollmenu{
+     font-family: verdana;
+}
+.scrollmenu {
+	text-decoration: none;
+}
+#github
+{
+font-family: verdana;
+
+}
+
+#explore {
+font-family: verdana;
+font-size:150%;
+}
+
+#features{
+font-family: verdana;
+font-size:150%;
+}
+#signup {
+	background-color: #008000;
+    font-family: verdana;
+    font-size:150%;
+
+}
+
+#enterprise {
+    font-family: verdana;
+    font-size:150%;
+}
+
+#pricing {
+    font-family: verdana;
+    font-size:150%;
+}
+
+#signup {
+    font-family: verdana;
+    font-size:150%;
+}
+#signin {
+    font-family: verdana;
+    font-size:150%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-spacing: 5px;
+    border-style: groove;
+
+}
+
+th {
+    text-align: left;
+}
+tr {
+	text-align: left;
+}
+#knowRe {
+    font-family: verdana;
+}
+#watch {
+    font-family: verdana;
+}
+#star {
+    font-family: verdana;
+}
+#fork {
+   font-family: verdana;
+}
+#webdevelopment{
+   font-family: verdana;
+}
+#curriculum2016 {
+   font-family: verdana;
+}
+#code
+{
+	color:black;
+	font-family: verdana;
+}
+#issues{
+	color:blue;
+	font-family: verdana;
+}
+#pullrequests {
+	color:blue;
+	font-family: verdana;
+}
+#pulse {
+	color:blue;
+	font-family: verdana;
+}
+#graphs {
+	color:blue;
+	font-family: verdana;
+}
+h3 {
+	font-size:200%;
+	margin-left: 20px;
+}
+#cloneindesktop {
+
+}
+#downloadzip {
+
+}
+body {
+	
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+
