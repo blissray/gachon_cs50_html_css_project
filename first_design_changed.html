@@ -55,20 +55,39 @@
             border-style: solid;
             border-width: 1px;
         }
-        #left_table{width: 790px;}
-
+        #left_table{width: 790px;
+            height : 100px;}
 
         #right_div{
             height: 695px;
-            width: 20%;
+            width: 19%;
             float: right;
             display: inline;
             border-style: solid;
             border-width: 1px;
-            margin-left : 07px ;
+            margin-left : 0px ;
         }
+        .left_table {float: left;
+        height: 50px;
+        width: 100%;
+        display: inline;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding : 0%;
+        border-style: solid;
+        border-width: 1px;}
 
-
+        . table_of_left_table{float: left;
+            height : 30px;
+            width: 100%;
+            display: inline;
+            margin-left: 0px;
+            margin-right: 0px;
+            padding : 0%;
+            border-style: solid;
+            border-width: 1px;
+        }
+        . set_to_left {float : right}
     </style>
 
 
@@ -86,10 +105,10 @@
     </div>
     <div id ="second_main" class = "github">
        <div id="left_div" class = "github">
-           <table id = "left_table">
+           <table class = "left_table">
                <td>KnowRe Web development curriculum for noobs</td>
            </table>
-           <table id = "left_table">
+           <table class = "left_table">
                <tr>
                    <td><b>26</b> commits</td>
                    <td><b>2</b> branches</td>
@@ -97,30 +116,25 @@
                    <td><b>1</b> contributor </td>
                </tr>
            </table>
-           <table id = "left_table">
+           <table class = "left_table">
                <tr><th>WebDevCurriculum</th><th>/+</th></tr>
            </table>
-           <table id = "left_table">
-               <tr><td>This branch is 5 commits ahead of master</td><td>Pull request</td><td>Compare</td></tr>
-           </table>
-           <table class = yellow, id = "left_table">
-               <tr class = yellow, width = "1024"></tr>
-           </table>
-           <table id = "left_table">
-               <td><b>Kivol</b> authored 10 hours ago</td>
-           </table>
-           <table id = "left_table">
+           <table class = "table_of_left_table">
+               <tr><td>This branch is 5 commits ahead of master</td><td class = "set_to_left">Pull request</td><td>Compare</td></tr>
+               <tr ><td>...</td></tr>
+               <tr class = "yellow"><td>^^^^^^^^</td></tr>
+               <tr><td><b>Kivol</b> authored 10 hours ago</td></tr>
                <tr class = folder><td>Part0.git</td><td>Quest 0 - Added checklist</td> <td>19 hours ago</td></tr>
                <tr class = folder><td>did</td><td>New curriculum 2016 - started</td> <td>5 days ago</td></tr>
                <tr class = txt><td>LISENSE</td><td>New curriculum 2016 - started</td> <td>5 days ago</td></tr>
                <tr class = txt><td>README.md</td><td>...</td> <td>19 hours ago</td></tr>
            </table>
 
-           <table id = "left_table">
-               <tr>
+           <table class = "left_table">
+               <tr class = "table_of_left_table">
                    <td><b>README</b>.md</td></tr>
                <tr>
-                   <td width = "1024", height = "200"><h1>KnowRe web development curriculum 2016</h1></td>
+                   <td width = 70%, height = "200"><h1>KnowRe web development curriculum 2016</h1></td>
                </tr>
            </table>
 
