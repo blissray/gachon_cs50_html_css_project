@@ -2,48 +2,136 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>KnowRe Middle Part</title>
-    <style>table{width : 500px;}
-    .yellow{background-color :#FFE05A;}</style>
+    <title>Project</title>
+    <style>
+        /*make a big square.This is basic square*/
+        div#main{
+            width:1024px;
+            height: 1000px;
+            /*display: inline;*/
+            /*border-style: solid;*/
+            border-style: solid;
+            border-width: 1px;
+        }
+
+
+
+        /*the bottom section*/
+        footer{
+            width:1024px;
+            height: 50px;
+            border-style: solid;
+            border-width: 1px;
+        }
+
+
+
+        /*the top section*/
+        #top_section{
+            height:150px;
+            border-style: solid;
+            border-width: 1px;
+        }
+
+
+        /*below the top section, named middle*/
+        #middle{
+            height:150px;
+            border-style: solid;
+            border-width: 1px;
+        }
+
+
+
+        /*it floats left side*/
+        #left_div {
+            float: left;
+            height: 695px;
+            width: 790px;
+            display: inline;
+            border-style: solid;
+            border-width: 1px;
+        }
+
+
+
+        /*#right_div{*/
+            /*height: 695px;*/
+            /*width: 450px;*/
+            /*float: right;*/
+            /*display: inline;*/
+        /*}*/
+    </style>
+
+
 </head>
-<body>
 
-<p >KnowRe Web development curriculum for noobs</p>
-<table border = "1">
-    <tr>
-        <td><b>26</b> commits</td>
-        <td><b>2</b> branches</td>
-        <td><b>0</b> releases</td>
-        <td><b>1</b> contributor </td>
-    </tr>
-</table>
-<table border = "1" >
-    <tr><th>WebDevCurriculum</th><th>/+</th></tr>
-</table>
-<table border = "1">
-    <tr><td>This branch is 5 commits ahead of master</td><td>Pull request</td><td>Compare</td></tr>
-</table>
-<table class = yellow>
-    <tr class = yellow></tr>
-</table>
-<table border = "1">
-    <td><b>Kivol</b> authored 10 hours ago</td>
-</table>
-<table border = "1">
-    <tr class = folder><td>Part0.git</td><td>Quest 0 - Added checklist</td> <td>19 hours ago</td></tr>
-    <tr class = folder><td>did</td><td>New curriculum 2016 - started</td> <td>5 days ago</td></tr>
-    <tr class = txt><td>LISENSE</td><td>New curriculum 2016 - started</td> <td>5 days ago</td></tr>
-    <tr class = txt><td>README.md</td><td>...</td> <td>19 hours ago</td></tr>
-</table>
 
-<table border = "1">
-    <tr>
-        <td><b>README</b>.md</td></tr>
-    <tr>
-        <td><h1>KnowRe web development curriculum 2016</h1></td>
-    </tr>
-</table>
 
+<body margintop="0" marginleft="0" marginright="0" marginheight="0">
+
+
+<div id ="main">
+    <div id ="top_section" class = "github">
+    
+<header>
+<p> Github</p>
+<div class="this repository">
+   <p>This Repository </p>
+  <form method="get" id="search" action="#">
+     <span>
+        <input type="text" value="Search..." name="s" id="s" />
+        <input name="searchsubmit" type="image" src="search.gif" value="Go" id="searchsubmit" class="btn"  />
+     </span>
+  </form>
+
+</div>
+  <a href="#explore"><b>Explore</b></a>
+  <a href="#features"><b>Features</b></a>
+  <a href="#enterprise"><b>Enterprise</b></a>
+  <a href="#pricing"><b>Pricing</b></a>
+
+  <!--The sign up and sign in link -->
+  <a href="#signup" style= "color: white" style="background-color: #008000" >  Sign Up</a>
+  <a href="#signin">Sign In</a>  
+  </header>
+  
+</div>
+
+
+</header>
+
+</div>
+    <div id ="middle" class = "github">
+        middle
+        user/repository  image_watch, image_star, image_fork
+    </div>
+    <div id ="second_main" class = "github">
+       <div id="left_div" class = "github">
+           sentence
+           commits branches releases contributor
+           table
+           readme
+
+       </div>
+        <div id="right_div" class = "github">
+           (list)
+            code
+            Issues
+            pull requests
+            pulse
+            graph
+            http:~
+            clone in desktop
+            download zip
+       </div>
+    </div>
+</div>
+<footer>
+        end of line
+    2015~ terms privacy security contact help  status api training shop blog about pricing
+
+</footer>
 
 </body>
 </html>
