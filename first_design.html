@@ -13,7 +13,8 @@
             /*border-style: solid;*/
             border-style: solid;
             border-width: 1px;
-
+            /*margin-left: 100px;*/
+            /**!*/
         }
         /*the bottom section*/
         footer{
@@ -21,21 +22,24 @@
             height: 50px;
             border-style: solid;
             border-width: 1px;
-
+            margin-left: 100px;
+            margin-right: 100px;
         }
         /*the top section*/
         #top_section{
             height:150px;
             border-style: solid;
             border-width: 1px;
-
+            margin-left: 100px;
+            margin-right: 100px;
         }
         /*below the top section, named middle*/
         #middle{
             height:150px;
             border-style: solid;
             border-width: 1px;
-
+            margin-left: 100px;
+            margin-right: 100px;
         }
         /*it floats left side*/
         #left_div {
@@ -45,7 +49,8 @@
             display: inline;
             border-style: solid;
             border-width: 1px;
-
+            margin-left: 100px;
+            margin-right: 100px;
         }
 
 
@@ -67,11 +72,38 @@
 
 <div id ="main">
     <div id ="top_section" class = "github">
-       GITHUB 검색창 exlpre features enterprise pricing  (button) sign up/ sigin in
+       <header>
+  <h1><a href="#github" style="font-size:100%;"><b>Github</b></a></h1>
+  <div class="this repository">
+   <p>This Repository </p>
+  <form method="get" id="search" action="#">
+     <span>
+        <input type="text" value="Search..." name="s" id="s" />
+        <input name="searchsubmit" type="image" src="search.gif" value="Go" id="searchsubmit" class="btn"  />
+     </span>
+  </form>
+
+</div>
+  <a href="#explore"><b>Explore</b></a>
+  <a href="#features"><b>Features</b></a>
+  <a href="#enterprise"><b>Enterprise</b></a>
+  <a href="#pricing"><b>Pricing</b></a>
+
+  <!--The sign up and sign in link -->
+  <a href="#signup" style= "color: white" style="background-color: #008000" >  Sign Up</a>
+  <a href="#signin">Sign In</a>
+    </header>
+
     </div>
     <div id ="middle" class = "github">
-        middle
-        user/repository  image_watch, image_star, image_fork
+    <nav>
+        <img src="octicon.png" alt="octicon" style="float:right;width:200px;height:200px;"> <h2 style="color:blue">knowRe/<b>WebDevCurriculum.</b> </h2>
+
+    <a href="#watch"><b>Watch</b></a>
+    <a href="#star"><b>Star</b></a>
+    <a href="#fork"><b>Fork</b></a>
+
+    </nav>
     </div>
     <div id ="second_main" class = "github">
        <div id="left_div" class = "github">
