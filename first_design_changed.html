@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Project</title>
+
     <style>
 
         /*make a big square.This is basic square*/
@@ -77,17 +78,22 @@
         border-style: solid;
         border-width: 1px;}
 
-        . table_of_left_table{float: left;
+        .table_of_left_table{float: left;
             height : 30px;
             width: 100%;
             display: inline;
             margin-left: 0px;
             margin-right: 0px;
-            padding : 0%;
+            padding : 1%;
             border-style: solid;
             border-width: 1px;
         }
-        . set_to_left {float : right}
+        .set_to_right {float : right}
+        .set_to_left {float : left}
+        table {
+            height : 20px;
+            position
+        }
     </style>
 
 
@@ -108,38 +114,57 @@
            <table class = "left_table">
                <td>KnowRe Web development curriculum for noobs</td>
            </table>
-           <table class = "left_table">
-               <tr>
+           <table border = "1px" width = "100%">
+               <tr style = "text-align : center", height = 40px>
                    <td><b>26</b> commits</td>
                    <td><b>2</b> branches</td>
                    <td><b>0</b> releases</td>
                    <td><b>1</b> contributor </td>
                </tr>
            </table>
-           <table class = "left_table">
-               <tr><th>WebDevCurriculum</th><th>/+</th></tr>
+           <table border = "1px", width ="100%", height = 30px, cellpadding="" = 0%>
+               <tr height = 30px><td><h3>WebDevCurriculum <b>/+</b></h3></td></tr>
            </table>
-           <table class = "table_of_left_table">
-               <tr><td>This branch is 5 commits ahead of master</td><td class = "set_to_left">Pull request</td><td>Compare</td></tr>
-               <tr ><td>...</td></tr>
-               <tr class = "yellow"><td>^^^^^^^^</td></tr>
-               <tr><td><b>Kivol</b> authored 10 hours ago</td></tr>
-               <tr class = folder><td>Part0.git</td><td>Quest 0 - Added checklist</td> <td>19 hours ago</td></tr>
-               <tr class = folder><td>did</td><td>New curriculum 2016 - started</td> <td>5 days ago</td></tr>
-               <tr class = txt><td>LISENSE</td><td>New curriculum 2016 - started</td> <td>5 days ago</td></tr>
-               <tr class = txt><td>README.md</td><td>...</td> <td>19 hours ago</td></tr>
+           <table border = "1px", width = 100%>
+               <tr style = "text-align: left" height = "20px"><td>This branch is 5 commits ahead of master</td></tr>
+               <tr style = "text-align: left"><td>...</td></tr>
+               <tr style = "text-align: left"><td><b>Kivol</b> authored 10 hours ago</td></tr>
            </table>
 
-           <table class = "left_table">
-               <tr class = "table_of_left_table">
-                   <td><b>README</b>.md</td></tr>
+           <table border = "1px" , width ="100%", height = 20px>
+               <tbody>
+                    <tr>
+                        <td style = "text-align: left">Part0.git</td>
+                        <td style = "text-align : center">Quest 0 - Added checklist</td>
+                        <td style = "text-align: right">19 hours ago</th.float:left>
+                    </tr>
+                <tr>
+                    <td style = "text-align: left">did</td>
+                    <td style = "text-align : center">New curriculum 2016 - started</td>
+                    <td style = "text-align: right">5 days ago</td>
+                </tr>
+                <tr>
+                    <td style = "text-align: left">LISENSE</td>
+                    <td style = "text-align : center">New curriculum 2016 - started</td>
+                    <td style = "text-align: right">5 days ago</td>
+                </tr><tr class = txt>
+                <tr>
+                    <td style = "text-align: left">README.md</td>
+                    <td style = "text-align : center">...</td>
+                    <td style = "text-align: right">19 hours ago</td>
+                </tr>
+               </tbody>
+           </table>
+           <table border = "1px">
                <tr>
-                   <td width = 70%, height = "200"><h1>KnowRe web development curriculum 2016</h1></td>
+                   <td style = "text-align: left"><b>README</b>.md</td>
+               </tr>
+               <tr>
+                   <th width = 70%, height = "200" style = "text-align: left"><h1><font-size : 1px;>KnowRe web development curriculum 2016</font-size></h1></th>
                </tr>
            </table>
-
-
        </div>
+
         <div id="right_div" class = "github">
            (list)
             code
