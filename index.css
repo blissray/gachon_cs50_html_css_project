@@ -1,122 +1,164 @@
-h2{
-	text-align:left;
-	text-decoration: none;
-	margin-left: 20px;
+*{font-family: Arial;
+    border-style: solid;
+    border-width: 1px;}
 
-}
-#scrollmenu{
-     font-family: verdana;
-}
-.scrollmenu {
-	text-decoration: none;
-}
-#github
-{
-font-family: verdana;
-
-}
-
-#explore {
-font-family: verdana;
-font-size:150%;
-}
-
-#features{
-font-family: verdana;
-font-size:150%;
-}
-#signup {
-	background-color: #008000;
-    font-family: verdana;
-    font-size:150%;
-
-}
-
-#enterprise {
-    font-family: verdana;
-    font-size:150%;
-}
-
-#pricing {
-    font-family: verdana;
-    font-size:150%;
-}
-
-#signup {
-    font-family: verdana;
-    font-size:150%;
-}
-#signin {
-    font-family: verdana;
-    font-size:150%;
-}
-
-table, th, td {
-    border: 1px solid black;
-    border-spacing: 5px;
-    border-style: groove;
-
-}
-
-th {
-    text-align: left;
-}
-tr {
-	text-align: left;
-}
-#knowRe {
-    font-family: verdana;
-}
-#watch {
-    font-family: verdana;
-}
-#star {
-    font-family: verdana;
-}
-#fork {
-   font-family: verdana;
-}
-#webdevelopment{
-   font-family: verdana;
-}
-#curriculum2016 {
-   font-family: verdana;
-}
-#code
-{
-	color:black;
-	font-family: verdana;
-}
-#issues{
-	color:blue;
-	font-family: verdana;
-}
-#pullrequests {
-	color:blue;
-	font-family: verdana;
-}
-#pulse {
-	color:blue;
-	font-family: verdana;
-}
-#graphs {
-	color:blue;
-	font-family: verdana;
-}
-h3 {
-	font-size:200%;
-	margin-left: 20px;
-}
-#cloneindesktop {
-
-}
-#downloadzip {
-
-}
-body {
-	
-    margin-right: 100px;
+#main{
+        width:1024px;
+        height: 1000px;
+        display: inline-block;
+        border-width: 1px;
+        border-style: solid;
+        /*margin-left: 100px;*/
+        /*margin-right: 50px;*/
+    }
+footer{
+    width:1000px;
+    height: 50px;
+    border-style: solid;
+    border-width: 1px;
+    text-align : center;
     margin-left: 100px;
+    margin-right: 50px;
+}
+.github{
+    /*font-family: "Arial Black";*/
+    font-size: 12px;
+    font-color: black;
+    position: relative;
+    float: left;
+    margin: 10px;
+    border-style: solid;
+    border-width: 1px;
+
+}
+.this repository {
+    position: relative;
+    float: left;
+    margin: 10px;
+    border-style: solid;
+    border-width: 1px;
+
+
+}
+.explore {
+    position: relative;
+    float: left;
+    margin: 10px;
+    border-style: solid;
+    border-width: 1px;
+
+}
+.features
+{
+   position: relative;
+   float: left;
+   margin: 10px;
+    border-style: solid;
+    border-width: 1px;
+
+
 }
 
+.enterprise {
+    position: relative;
+    float: left;
+    margin: 10px;
+    border-style: solid;
+    border-width: 1px;
 
+
+}
+
+.pricing {
+    position: relative;
+    float: left;
+    margin: 10px;
+    border-style: solid;
+    border-width: 1px;
+
+}
+.sign{
+    position: relative;
+    float: left;
+    margin: 10px;
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+.button{
+    position: relative;
+    float: left;
+    margin: 10px;
+    border-style: solid;
+    border-width: 1px;
+
+}
+.top_section {
+    border-style: groove;
+    background: lightgray;
+    border-style: solid;
+    border-width: 1px;
+
+}
+.middle{
+    height:150px;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+        /*it floats left side*/
+.left_div {
+    float: left;
+    height: 695px;
+    width: 70%;
+    display: inline;
+    margin-left: 100px;
+    margin-right: 0px;
+    padding : 0%;
+    border-style: solid;
+    border-width: 1px;
+}
+.left_table{width: 790px;
+    height : 100px;}
+
+#right_div{
+    height: 695px;
+    width: 19%;
+    float: right;
+    display: inline;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    margin-left : 0px ;
+
+
+}
+.left_table {  float: left;
+height: 50px;
+width: 100%;
+display: inline;
+margin-left: 0px;
+margin-right: 0px;
+padding : 0%;
+border-style: solid;
+border-width: 1px;}
+
+.table_of_left_table{float: left;
+    height : 30px;
+    width: 100%;
+    display: inline;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding : 1%;
+    border-style: solid;
+    border-width: 1px;
+}
+.set_to_right {float : right}
+.set_to_left {float : left}
+table {
+    height : 20px;
+    position: static;
+}
