@@ -1,100 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="index.css">
     <meta charset="UTF-8">
     <title>Project</title>
-
-    <style>
-
-        /*make a big square.This is basic square*/
-        div#main{
-            width:1024px;
-            height: 1000px;
-            /*display: inline;*/
-            /*border-style: solid;*/
-            border-style: solid;
-            border-width: 1px;
-            /*margin-left: 100px;*/
-            /*margin-right: 50px;*/
-        }
-        /*the bottom section*/
-        footer{
-            width:1000px;
-            height: 50px;
-            border-style: solid;
-            border-width: 1px;
-            margin : 0px;, 50px;, 0px;, 100px;
-            text-align : center
-            margin-left: 100px;
-            margin-right: 50px;
-        }
-        /*the top section*/
-        #top_section{
-            height:150px;
-            border-style: solid;
-            border-width: 1px;
-            margin-left: 100px;
-            margin-right: 50px;
-        }
-        /*below the top section, named middle*/
-        #middle{
-            height:150px;
-            border-style: solid;
-            border-width: 1px;
-            margin-left: 100px;
-            margin-right: 50px;
-        }
-        /*it floats left side*/
-        #left_div {
-            float: left;
-            height: 695px;
-            width: 70%;
-            display: inline;
-            margin-left: 100px;
-            margin-right: 0px;
-            padding : 0%;
-            border-style: solid;
-            border-width: 1px;
-        }
-        #left_table{width: 790px;
-            height : 100px;}
-
-        #right_div{
-            height: 695px;
-            width: 19%;
-            float: right;
-            display: inline;
-            border-style: solid;
-            border-width: 1px;
-            margin-left : 0px ;
-        }
-        .left_table {float: left;
-        height: 50px;
-        width: 100%;
-        display: inline;
-        margin-left: 0px;
-        margin-right: 0px;
-        padding : 0%;
-        border-style: solid;
-        border-width: 1px;}
-
-        .table_of_left_table{float: left;
-            height : 30px;
-            width: 100%;
-            display: inline;
-            margin-left: 0px;
-            margin-right: 0px;
-            padding : 1%;
-            border-style: solid;
-            border-width: 1px;
-        }
-        .set_to_right {float : right}
-        .set_to_left {float : left}
-        table {
-            height : 20px;
-            position
-        }
-    </style>
 
 
 </head>
@@ -103,32 +12,64 @@
 
 <div id ="main">
     <div id ="top_section" class = "github">
-       GITHUB 검색창 exlpre features enterprise pricing  (button) sign up/ sigin in
+       <img width="120px" src="./svg/logo-github.svg">
+        <span>This Repository</span>
+            <input type="search" value="Search">
+        <tr class = "explore">Explore</tr>
+        <tr class = "features">Features</tr>
+        <tr class = "enterprise">Enterprise</tr>
+        <tr class = "pricing">Pricing</tr>
+        <button type="button" onclick="alert('Sign up!')">Sign up </button>
+        <button type="button" onclick="alert('Sign in!')">Sign in</button>
     </div>
+
+
     <div id ="middle" class = "github">
-        middle
-        user/repository  image_watch, image_star, image_fork
+        <img width ="20px" hight = "10px" src="./svg/repo.svg">
+             <span>
+                <a href>knowRe</a>
+                 <a> / </a>
+                <a href> WebDevCurriculumv </a>
+             </span>
+        <!--button-->
+            <span >
+                <button id ="watch" type ="button"><img src="./svg/eye.svg"> Watch</button>
+                <span>20</span>
+                <button id ="star" type ="button"><img src="./svg/star.svg"> Star</button>
+                 <span>47</span>
+                <button id ="fork" type ="button"><img src="./svg/repo-forked.svg"> Fork</button>
+                 <span>6</span>
+            </span>
     </div>
+
+
     <div id ="second_main" class = "github">
        <div id="left_div" class = "github">
+
            <table class = "left_table">
                <td>KnowRe Web development curriculum for noobs</td>
            </table>
+
            <table border = "1px" width = "100%">
                <tr style = "text-align : center", height = 40px>
-                   <td><b>26</b> commits</td>
-                   <td><b>2</b> branches</td>
-                   <td><b>0</b> releases</td>
-                   <td><b>1</b> contributor </td>
+                   <td><img src="./svg/clock.svg"><b>26</b> commits</td>
+                   <td><img src="./svg/git-branch.svg"><b>2</b> branches</td>
+                   <td><img src="./svg/tag.svg"><b>0</b> releases</td>
+                   <td><img src="./svg/organization.svg"><b>1</b> contributor </td>
                </tr>
            </table>
+
            <table border = "1px", width ="100%", height = 30px, cellpadding="" = 0%>
                <tr height = 30px><td><h3>WebDevCurriculum <b>/+</b></h3></td></tr>
            </table>
+
            <table border = "1px", width = 100%>
-               <tr style = "text-align: left" height = "20px"><td>This branch is 5 commits ahead of master</td></tr>
+               <tr style = "text-align: left" height = "20px"><td>This branch is 5 commits ahead of master
+               <image src="./svg/git-pull-request.svg">Pull request</image>
+               <image src="./svg/diff.svg">Compare</image></td></tr>
                <tr style = "text-align: left"><td>...</td></tr>
-               <tr style = "text-align: left"><td><b>Kivol</b> authored 10 hours ago</td></tr>
+               <tr style = "text-align: left"><td><b>Kivol</b> authored 19 hours ago
+               <p> latest commit 5ead7a7a36 <image src="./svg/clippy.svg"></image></p></td></tr>
            </table>
 
            <table border = "1px" , width ="100%", height = 20px>
@@ -155,6 +96,7 @@
                 </tr>
                </tbody>
            </table>
+
            <table border = "1px">
                <tr>
                    <td style = "text-align: left"><b>README</b>.md</td>
@@ -163,24 +105,64 @@
                    <th width = 70%, height = "200" style = "text-align: left"><h1><font-size : 1px;>KnowRe web development curriculum 2016</font-size></h1></th>
                </tr>
            </table>
+
        </div>
 
+
         <div id="right_div" class = "github">
-           (list)
-            code
-            Issues
-            pull requests
-            pulse
-            graph
-            http:~
-            clone in desktop
-            download zip
+            <nav id = "sidemenu">
+                <ul>
+                    <li id="code"><img src="./svg/code.svg">Code</li>
+
+                    <li class="blue"><img src="./svg/issue-opened.svg">Issues</li>
+                    <li class="blue"><img src="./svg/git-pull-request.svg">Pull requests</li>
+                    <li class="blue"><img src="./svg/pulse.svg">Pulse</li>
+                    <li class="blue"><img src="./svg/graph.svg">Graphs</li>
+                </ul>
+            </nav>
+
+            <div id="http" class="right_section">
+                <strong>HTTPS</strong> clone URL
+                <input type="search" value="https://github.com">
+                <button type="button"><img src="svg/clippy.svg"></button>
+                <p>
+                    You can clone with HTTPS or Subversion.
+                    <image src="./svg/question.svg"></image>
+                </p>
+            </div>
+
+            <button id="clone" class="right_section" ><image src="./svg/desktop-download.svg"> Clone in Desktop </image></button>
+            <button id="download" class="right_section"  ><image src="./svg/cloud-download.svg"> Download ZIP </image></button>
+
        </div>
+
+
     </div>
 </div>
+
 <footer>
-        end of line
-    2015~ terms privacy security contact help  status api training shop blog about pricing
+    <span id="left_footer">
+         <span>©2015 GitHub, Inc </span>
+          <a href="#terms">Terms</a>
+          <a href="#privacy">Privacy</a>
+          <a href="#security">Security</a>
+          <a href="#contact">Contact</a>
+          <a href="#help">Help</a>
+    </span>
+
+    <span>
+        <image src="./svg/footer_logo.svg" width="30" height="30"></image>
+    </span>
+
+    <span id="right-footer">
+        <a href="#status">Status</a>
+       <a href="#api">API</a>
+       <a href="#training">Training</a>
+       <a href="#shop">Shop</a>
+       <a href="#blog">Blog</a>
+       <a href="#about">About</a>
+       <a href="#pricing">Pricing</a>
+    </span>
 
 </footer>
 

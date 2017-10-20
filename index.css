@@ -1,150 +1,88 @@
-*{font-family: Arial;
-    border-style: solid;
-    border-width: 1px;}
 
-#main{
-        width:1024px;
-        height: 1000px;
-        display: inline-block;
-        border-width: 1px;
-        border-style: solid;
-        /*margin-left: 100px;*/
-        /*margin-right: 50px;*/
-    }
+div#main{
+    width:1024px;
+    height: 1000px;
+}
+/*the bottom section*/
 footer{
-    width:1000px;
+    width:920px;
     height: 50px;
     border-style: solid;
     border-width: 1px;
-    text-align : center;
+    margin-left: 100px;
+}
+#left_footer{
+    float:left;
+    display: inline;
+}
+#right-footer{
+    float: right;
+    display:inline;
+}
+/*the top section*/
+#top_section{
+    height:80px;
     margin-left: 100px;
     margin-right: 50px;
-}
-.github{
-    /*font-family: "Arial Black";*/
-    font-size: 12px;
-    font-color: black;
-    position: relative;
-    float: left;
-    margin: 10px;
-    border-style: solid;
-    border-width: 1px;
+    background: #fafbfc;
+    border-bottom-color: #d3d4d5;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
 
 }
-.this repository {
-    position: relative;
-    float: left;
-    margin: 10px;
-    border-style: solid;
-    border-width: 1px;
-
-
-}
-.explore {
-    position: relative;
-    float: left;
-    margin: 10px;
-    border-style: solid;
-    border-width: 1px;
-
-}
-.features
-{
-   position: relative;
-   float: left;
-   margin: 10px;
-    border-style: solid;
-    border-width: 1px;
-
-
-}
-
-.enterprise {
-    position: relative;
-    float: left;
-    margin: 10px;
-    border-style: solid;
-    border-width: 1px;
-
-
-}
-
-.pricing {
-    position: relative;
-    float: left;
-    margin: 10px;
-    border-style: solid;
-    border-width: 1px;
-
-}
-.sign{
-    position: relative;
-    float: left;
-    margin: 10px;
-    border-style: solid;
-    border-width: 1px;
-
-}
-
-.button{
-    position: relative;
-    float: left;
-    margin: 10px;
-    border-style: solid;
-    border-width: 1px;
-
-}
-.top_section {
-    border-style: groove;
-    background: lightgray;
-    border-style: solid;
-    border-width: 1px;
-
-}
-.middle{
-    height:150px;
-    border-style: solid;
-    border-width: 1px;
+/*below the top section, named middle*/
+#middle{
+    height:100px;
     margin-left: 100px;
     margin-right: 50px;
+    border-bottom-color: #d3d4d5;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
 }
-        /*it floats left side*/
-.left_div {
+/*it floats left side*/
+#left_div {
     float: left;
-    height: 695px;
+    height: auto;
     width: 70%;
     display: inline;
     margin-left: 100px;
     margin-right: 0px;
     padding : 0%;
-    border-style: solid;
-    border-width: 1px;
+
 }
-.left_table{width: 790px;
+#left_table{width: 790px;
     height : 100px;}
 
 #right_div{
-    height: 695px;
-    width: 19%;
+    height: auto;
+    width: 20%;
     float: right;
     display: inline;
-    border-color: white;
     border-style: solid;
     border-width: 1px;
-    border-radius: 10px;
-    margin-left : 0px ;
-
 
 }
-.left_table {  float: left;
-height: 50px;
-width: 100%;
-display: inline;
-margin-left: 0px;
-margin-right: 0px;
-padding : 0%;
-border-style: solid;
-border-width: 1px;}
+.right_section{
+    padding-left: 20px;
+}
+
+
+
+
+.blue{
+    color: #4d81c4;
+}
+
+.left_table {
+    float: left;
+    height: 50px;
+    width: 100%;
+    display: inline;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding : 0%;
+    border-style: solid;
+    border-width: 1px;}
 
 .table_of_left_table{float: left;
     height : 30px;
@@ -160,5 +98,4 @@ border-width: 1px;}
 .set_to_left {float : left}
 table {
     height : 20px;
-    position: static;
 }
