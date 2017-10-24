@@ -99,3 +99,21 @@ footer{
 table {
     height : 20px;
 }
+/*CSS파일 하나더 적용어떻게 시키나유..?일단 여기 해둘게요 헹*/
+.basic_table_frame_set{ border : 1px;
+    width : 100%;
+}
+.font_blue{
+    color : #3D70B6;
+}
+#gray_box{
+    background-color: #F5F5F5;
+}
+#blue_box{
+    background-color: #E6F1F6;
+}
+.default_font{
+    font-famuly : BlinkMacSystemFont, Helvetica, Arial ;
+    font-size : 14px;
+
+}

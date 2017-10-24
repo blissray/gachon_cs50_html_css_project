@@ -4,8 +4,6 @@
     <link rel="stylesheet" type="text/css" href="index.css">
     <meta charset="UTF-8">
     <title>Project</title>
-
-
 </head>
 <body margintop="0" marginleft="0" marginright="0" marginheight="0">
 
@@ -27,18 +25,18 @@
     <div id ="middle" class = "github">
         <img width ="20px" hight = "10px" src="./svg/repo.svg">
              <span>
-                <a href>knowRe</a>
+                 <a href>knowRe</a>
                  <a> / </a>
-                <a href> WebDevCurriculumv </a>
+                 <a href >WebDevCurriculumv</a>
              </span>
         <!--button-->
             <span >
-                <button id ="watch" type ="button"><img src="./svg/eye.svg"> Watch</button>
+                <a class = set_to_right><button id ="watch" type ="button"><img src="./svg/eye.svg"> Watch</button>
                 <span>20</span>
                 <button id ="star" type ="button"><img src="./svg/star.svg"> Star</button>
                  <span>47</span>
                 <button id ="fork" type ="button"><img src="./svg/repo-forked.svg"> Fork</button>
-                 <span>6</span>
+                    <span>6</span></a>
             </span>
     </div>
 
@@ -50,59 +48,60 @@
                <td>KnowRe Web development curriculum for noobs</td>
            </table>
 
-           <table border = "1px" width = "100%">
+           <table border = "1px" width = "100%" class = default_font>
                <tr style = "text-align : center", height = 40px>
                    <td><img src="./svg/clock.svg"><b>26</b> commits</td>
                    <td><img src="./svg/git-branch.svg"><b>2</b> branches</td>
                    <td><img src="./svg/tag.svg"><b>0</b> releases</td>
                    <td><img src="./svg/organization.svg"><b>1</b> contributor </td>
                </tr>
+               <tr height = 5px><td colspan = "4">......</td></tr>
            </table>
 
            <table border = "1px", width ="100%", height = 30px, cellpadding="" = 0%>
-               <tr height = 30px><td><h3>WebDevCurriculum <b>/+</b></h3></td></tr>
+           <tr height = 30px><td><b><button type ="button">Branch: <b>2016</b></button><a class = font_blue> WebDevCurriculum</a>/+</b></td></tr>
            </table>
 
            <table border = "1px", width = 100%>
-               <tr style = "text-align: left" height = "20px"><td>This branch is 5 commits ahead of master
-               <image src="./svg/git-pull-request.svg">Pull request</image>
-               <image src="./svg/diff.svg">Compare</image></td></tr>
-               <tr style = "text-align: left"><td>...</td></tr>
-               <tr style = "text-align: left"><td><b>Kivol</b> authored 19 hours ago
-               <p> latest commit 5ead7a7a36 <image src="./svg/clippy.svg"></image></p></td></tr>
+               <tr style = "text-align: left" height = "20px" id = gray_box><td>This branch is 5 commits ahead of master
+                   <a href = "#compare" class = set_to_right>   <image src="./svg/diff.svg">  Compare</image></a>
+                   <a href = "#Pullrequest" class = set_to_right><image src="./svg/git-pull-request.svg">  Pull request</image></a></td></tr>
+               <tr style = "text-align: left" id = blue_box><td>...</td></tr>
+               <tr style = "text-align: left" id = gray_box><td><b>Kivol</b> authored 19 hours ago
+               <a class = set_to_right> latest commit 5ead7a7a36 <image src="./svg/clippy.svg"></image></a></td></tr>
            </table>
 
-           <table border = "1px" , width ="100%", height = 20px>
+           <table border = "1px" , width ="100%", height = 20px class = default_font>
                <tbody>
                     <tr>
-                        <td style = "text-align: left">Part0.git</td>
+                        <td style = "text-align: left">Part0.git<a class = font_blue>Quest 0. Hello, git</a></td>
                         <td style = "text-align : center">Quest 0 - Added checklist</td>
                         <td style = "text-align: right">19 hours ago</th.float:left>
                     </tr>
                 <tr>
-                    <td style = "text-align: left">did</td>
+                    <td style = "text-align: left" class = font_blue>did</td>
                     <td style = "text-align : center">New curriculum 2016 - started</td>
                     <td style = "text-align: right">5 days ago</td>
                 </tr>
-                <tr>
-                    <td style = "text-align: left">LISENSE</td>
+                <tr  id = gray_box>
+                    <td style = "text-align: left" class  = font_blue>LISENSE</td>
                     <td style = "text-align : center">New curriculum 2016 - started</td>
                     <td style = "text-align: right">5 days ago</td>
                 </tr><tr class = txt>
                 <tr>
-                    <td style = "text-align: left">README.md</td>
+                    <td style = "text-align: left" class = font_blue>README.md</td>
                     <td style = "text-align : center">...</td>
                     <td style = "text-align: right">19 hours ago</td>
                 </tr>
                </tbody>
            </table>
 
-           <table border = "1px">
+           <table border = "1px" width = 100% class = default_font>
                <tr>
-                   <td style = "text-align: left"><b>README</b>.md</td>
+                   <td style = "text-align: left" id = gray_box><b>README</b>.md</td>
                </tr>
                <tr>
-                   <th width = 70%, height = "200" style = "text-align: left"><h1><font-size : 1px;>KnowRe web development curriculum 2016</font-size></h1></th>
+                   <th width = 100%, height = "200" style = "text-align: left"><p font-size : 200pt ;>KnowRe web development curriculum 2016</p></th>
                </tr>
            </table>
 
@@ -126,7 +125,7 @@
                 <input type="search" value="https://github.com">
                 <button type="button"><img src="svg/clippy.svg"></button>
                 <p>
-                    You can clone with HTTPS or Subversion.
+                    You can clone with <a class = font_blue>HTTPS</a> or <a class = font_blue>Subversion.</a>
                     <image src="./svg/question.svg"></image>
                 </p>
             </div>
@@ -141,8 +140,8 @@
 </div>
 
 <footer>
-    <span id="left_footer">
-         <span>©2015 GitHub, Inc </span>
+    <span id="left_footer" class = font_blue>
+         <span color = "black">©2015 GitHub, Inc </span>
           <a href="#terms">Terms</a>
           <a href="#privacy">Privacy</a>
           <a href="#security">Security</a>
@@ -154,7 +153,7 @@
         <image src="./svg/footer_logo.svg" width="30" height="30"></image>
     </span>
 
-    <span id="right-footer">
+    <span id="right-footer" class = font_blue>
         <a href="#status">Status</a>
        <a href="#api">API</a>
        <a href="#training">Training</a>
