@@ -81,7 +81,7 @@ footer{
     margin-left: 0px;
     margin-right: 0px;
     padding : 0%;
-    border-style: solid;
+    border-style: none;
     border-width: 1px;}
 
 .table_of_left_table{float: left;
@@ -100,20 +100,77 @@ table {
     height : 20px;
 }
 /*CSS파일 하나더 적용어떻게 시키나유..?일단 여기 해둘게요 헹*/
-.basic_table_frame_set{ border : 1px;
-    width : 100%;
+.basic_table_frame_set{ width : 100%;
+    border-collapse: collapse;
+    border : solid 2px #DFDFDF;
+    height : 30px;
+    padding : 5px;
+    border-radius: 5px;
 }
-.font_blue{
+.big_table_frame_set{
+    width : 100%;
+    border-collapse: collapse;
+    border : solid 2px #DFDFDF;
+    height : 150px;
+    padding : 10px;
+    border-radius: 5px;
+}
+.middle_size_table_frame_set{
+    width : 100%;
+    border-collapse: collapse;
+    border : solid 2px #DFDFDF;
+    height : 90px;
+    padding : 10px;
+    border-radius: 5px;
+}
+
+#font_blue{
     color : #3D70B6;
 }
 #gray_box{
-    background-color: #F5F5F5;
+    background-color: #F4F4F0;
+}
+#light_gray_box{
+    background-color : #FAFAF8;
+    height : 30px;
 }
 #blue_box{
     background-color: #E6F1F6;
 }
 .default_font{
-    font-famuly : BlinkMacSystemFont, Helvetica, Arial ;
+    font-family : BlinkMacSystemFont, Helvetica, Arial ;
     font-size : 14px;
+    color : #7F7F7F;
 
+}
+#black_font{
+    font-family : BlinkMacSystemFont, Helvetica, Arial ;
+    font-size : 14px;
+    color : black;
+}
+
+tr{
+    border-style : 0,0,2px,0;
+    border-color: #DFDFDF;
+}
+#yellow_bottom{
+
+}
+#gray_bottom{
+
+}
+#no_border{
+    border-style: none;
+    width = 750px;
+    height = 30px;
+}
+#branch_button{
+    type = "button";
+    width : 17%;
+    height : 30px;
+    padding : none;
+    margin : none;
+    border-radius: 5px;
+    box-shadow: 0;
+    background-color : #FAFAF8;
 }
