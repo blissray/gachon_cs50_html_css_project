@@ -36,12 +36,18 @@ footer{
 }
 /*below the top section, named middle*/
 #middle{
-    height:100px;
+    height:50px;
     margin-left: 100px;
     margin-right: 50px;
     border-bottom-color: #d3d4d5;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    /*text-align: center;*/
+    padding-top:15px;
+    color: #4d81c4;
+}
+.blue_middle{
+    font-size: large;
 }
 /*it floats left side*/
 #left_div {
@@ -86,6 +92,7 @@ footer{
 
 #http{
     width:150px;
+    /*display: flex;*/
 }
 
 #code{
@@ -121,16 +128,16 @@ footer{
     border: 2px solid #e6e6e6;
     border-radius: 3px;
     display: inline;
-    padding-right: 0px;
 }
 
 #clippy{
     width:34px;
     border-radius: 3px;
     border-color: #f9f9f9;
-
+    display:inline-block;
 }
 #download{
+    padding-right: 15px;
     text-align:center;
     margin-left:15px;
     width:170px;
@@ -143,6 +150,7 @@ footer{
 }
 
 #clone{
+    padding-right: 15px;
     text-align: center;
     margin-left: 15px;
     margin-bottom: 10px;
@@ -160,6 +168,12 @@ footer{
     border-style: none;
     border-width: 1px;}
 
+#sentence_in_left_div{
+    padding-right: 25px;
+}
+.be_left{
+    float:right;
+}
 .table_of_left_table{float: left;
     height : 30px;
     width: 100%;
