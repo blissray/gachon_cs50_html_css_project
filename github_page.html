@@ -44,59 +44,63 @@
     <div id ="second_main" class = "github">
        <div id="left_div" class = "github">
 
-           <table class = "left_table", class = default_font>
+           <table class = "left_table default_font">
                <td>KnowRe Web development curriculum for noobs</td>
            </table>
 
-           <table class = "default_font basic_table_frame_set">
-               <tr>
+           <table class = "basic_table_frame_set default_font">
+               <tr id = "40height">
                    <td><img src="./svg/clock.svg"> <b id = "black_font"> 26</b> commits</td>
                    <td><img src="./svg/git-branch.svg"> <b id = "black_font"> 2</b> branches</td>
                    <td><img src="./svg/tag.svg"> <b id = "black_font"> 0</b> releases</td>
                    <td><img src="./svg/organization.svg"> <b id = "black_font"> 1</b> contributor </td>
                </tr>
-               <tr height = '40px'>
-                   <td class = "default_font", colspan="4"><button id = "branch_button"><a class = "default_font>Branch: <b id="black_font">2016</b> ▼</a></button><b><a id = "font_blue";> <font-size : 500px;>  WebDevCurriculum</a> <a class = default_font>/ +</a></font-size></b></td>
+               <tr>
+                   <td class = "default_font" colspan = "4" id = "branch_font"><button id = twin_icon><image src="./svg/twin_branch.png" id = twin_branch></image></button>&nbsp;<button id = "branch_button"><a class = "default_font">Branch:<b id="black_font">2016</b> ▼</a></button><b><a id = "font_blue";>&nbsp;&nbsp;WebDevCurriculum</a> <a class = default_font id = plus_font>/ +</a></b></td>
                </tr>
            </table>
 
-           <table class = "middle_size_table_frame_set default_font">
-               <tr style = "text-align: left" , id = light_gray_box><td>This branch is 5 commits ahead of master
-                   <a href = "#compare" class = set_to_right>   <image src="./svg/diff.svg">  Compare</image></a>
-                   <a href = "#Pullrequest" class = set_to_right><image src="./svg/git-pull-request.svg">  Pull request</image></a></td></tr>
-               <tr style = "text-align: left" id = blue_box><td>...</td></tr>
-               <tr style = "text-align: left" id = light_gray_box><td><b id = black_font>Kivol</b> authored 19 hours ago
-               <a class = set_to_right> latest commit 5ead7a7a36 <image src="./svg/clippy.svg"></image></a></td></tr>
+           <table class = "middle_size_table_frame_set default_font side_padding">
+               <tr id = "light_gray_box"><td>This branch is 5 commits ahead of master</td>
+                   <td></td>
+                   <td  id = "set_to_right"> <image src="./svg/git-pull-request.svg">&nbsp;Pull request</image>&nbsp;&nbsp;&nbsp;<image src="./svg/diff.svg">  Compare</image></td></tr>
+               <tr id = "blue_box" ><td>...</td>
+                   <td></td>
+                   <td></td>
+               </tr>
+               <tr id = "light_gray_box"><td><b id = "black_font">Kivol</b> authored 19 hours ago</td>
+                   <td></td>
+                   <td id= "set_to_right"> latest&nbsp;commit&nbsp;&nbsp;&nbsp;5ead7a7a36 &nbsp;<image src="./svg/clippy.svg"></image></td></tr>
            </table>
 
-           <table class = "big_table_frame_set default_font">
+           <table class = "big_table_frame_set default_font side_padding">
                <tbody>
                     <tr>
-                        <td style = "text-align: left"><image src="./svg/file-directory.svg">  Part0.git</image><a id = "font_blue";>Quest 0. Hello, git</a></td>
-                        <td style = "text-align : center"><a class = set_to_left>Quest 0 - Added checklist</a></td>
-                        <td style = "text-align: right">19 hours ago</th.float:left>
+                        <td><image src="./svg/file-directory.svg">&nbsp;Part0.git</image><a id = "font_blue";>Quest 0. Hello, git</a></td>
+                        <td>Quest 0 - Added checklist</td>
+                        <td id = "set_to_right">19 hours ago</td>
                     </tr>
                 <tr>
-                    <td style = "text-align: left" id = "font_blue"><image src="./svg/file-directory.svg"> old</image></td>
-                    <td style = "text-align : center"><a class = set_to_left>New curriculum 2016 - started</a></td>
-                    <td style = "text-align: right">5 days ago</td>
+                    <td id = "font_blue"><image src="./svg/file-directory.svg">&nbsp;old</image></td>
+                    <td ><a>New curriculum 2016 - started</a></td>
+                    <td id = "set_to_right">5 days ago</td>
                 </tr>
-                <tr  id = gray_box>
-                    <td style = "text-align: left"><image src="./svg/file-text.svg"><a  id = "font_blue";>LISENSE</a></image></td>
-                    <td style = "text-align : center"><a class = set_to_left>New curriculum 2016 - started</a></td>
-                    <td style = "text-align: right">5 days ago</td>
+                <tr  id = "gray_box">
+                    <td><image src="./svg/file-text.svg"><a  id = "font_blue";>&nbsp;&nbsp;LISENSE</a></image></td>
+                    <td><a>New curriculum 2016 - started</a></td>
+                    <td id = "set_to_right">5 days ago</td>
                 </tr>
                 <tr>
-                    <td style = "text-align: left"><image src="./svg/file-text.svg"><a id = "font_blue";>README.md</a></image></td>
-                    <td style = "text-align : center"><a class = set_to_left>...</a></td>
-                    <td style = "text-align: right">19 hours ago</td>
+                    <td><image src="./svg/file-text.svg"><a id = "font_blue";>&nbsp;&nbsp;README.md</a></image></td>
+                    <td><a>...</a></td>
+                    <td id = "set_to_right">19 hours ago</td>
                 </tr>
                </tbody>
            </table>
 
-           <table class = "big_table_frame_set", id = black_font>
+           <table class = "big_table_frame_set side_padding top_margin", id = "black_font">
                <tr>
-                   <td style = "text-align: left" id = "light_gray_box", height = "40";><image src = "./svg/book.svg"><b> README</b></image>.md</td>
+                   <td id = "light_gray_box", height = "40";><image src = "./svg/book.svg"><b>&nbsp;&nbsp;README</b></image>.md</td>
                </tr>
                <tr>
                    <th id="readme_contents"><h1>KnowRe web development curriculum 2016</h1></th>
