@@ -112,7 +112,7 @@ table {
     border-collapse: collapse;
     border : solid 2px #DFDFDF;
     height : 150px;
-    padding : 5px;
+    padding : 10px;
     border-radius: 5px;
 }
 .middle_size_table_frame_set{
@@ -120,11 +120,11 @@ table {
     border-collapse: collapse;
     border : solid 2px #DFDFDF;
     height : 90px;
-    padding : 5px;
+    padding : 10px;
     border-radius: 5px;
 }
 
-.font_blue{
+#font_blue{
     color : #3D70B6;
 }
 #gray_box{
@@ -149,8 +149,9 @@ table {
     color : black;
 }
 
-td{
-   border-style : none;
+tr{
+    border-style : 0,0,2px,0;
+    border-color: #DFDFDF;
 }
 #yellow_bottom{
 
@@ -165,8 +166,8 @@ td{
 }
 #branch_button{
     type = "button";
-    width : 45%;
-    height : 25px;
+    width : 17%;
+    height : 30px;
     padding : none;
     margin : none;
     border-radius: 5px;
