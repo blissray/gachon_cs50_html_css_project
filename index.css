@@ -184,12 +184,12 @@ footer{
     border-style: solid;
     border-width: 1px;
 }
-#set_to_right {
+.set_to_right {
     text-align : right;
     float : right;
     colspan : "4";}
-#set_to_left {text-align : left;}
-#set_to_center{float : center;}
+.set_to_left {text-align : left;}
+.set_to_center{float : center;}
 table {
     height : 20px;
 }
@@ -209,6 +209,7 @@ table {
     height : 30px;
     padding : 0px;
     margin : 100px 0px 0px 0px;
+    border-bottom: ;
 }
 .basic_tr_frame_set{
     width : 100%;
@@ -246,17 +247,18 @@ table {
 .side_padding{
     padding-left: 20px;
 }
-#font_blue{
+.font_blue{
     color : #3D70B6;
 }
 #gray_box{
     background-color: #F4F4F0;
 }
-#light_gray_box{
+.light_gray_box{
     background-color : #FAFAF8;
     height : 30px;
     colspan : "4";
 }
+
 #blue_box{
     background-color: #E6F1F6;
     height : 30px;
@@ -268,7 +270,7 @@ table {
     color : #7F7F7F;
 
 }
-#black_font{
+.black_font{
     font-family : BlinkMacSystemFont, Helvetica, Arial ;
     font-size : 15px;
     color : black;
@@ -280,7 +282,11 @@ table {
     background-color: #F1E05A;
 }
 #gray_bottom{
-
+    type : "button";
+    width : 6.7%;
+    padding : 0px 0px 4px 0px;
+    margin : 0px 0px 0px 0px;
+    border-radius: 5px;
 }
 #no_border{
     border-style: none;
@@ -288,29 +294,39 @@ table {
     height : 30px;
 }
 #branch_button{
-    type : "button";
+    /*type : "button";*/
     width : 17%;
     height : 30px;
     padding : 0px 0px 4px 0px;
     margin : 0px 0px 4px 0px;
     border-radius: 5px;
     /*box-shadow: 0;*/
-    background-color : #FAFAF8;
+    background-color : #F4F4F0;
 }
 #twin_icon{
-    type : "button";
+    margin: 4px 0px 2px 0px;
+    float: left;
     width : 6.7%;
+    padding : 10px 0px 18px 0px;
+    border-radius: 5px;
+    background-color : #48CE31;
+    height: 18px;
+}
+#small_gray_icon{
+    type : "button";
+    width : 35px;
+    height : 30px;
     padding : 0px 0px 4px 0px;
     margin : 0px 0px 0px 0px;
     border-radius: 5px;
-    background-color : #48CE31;
-}
+    background-color: #F4F4F0;
+    float : right;}
+/*}*/
 #twin_branch{
-    /*padding-top: 20px;*/
+    padding: 10px 0px 0px 0px ;
     width : 25px;
-    height : 20px;
-    margin : 0px;
-    padding : 0px 0px 0px 0px;
+    height : 25px;
+    float: none;
 }
 #readme_contents{
      width : 100% ;
@@ -323,13 +339,14 @@ table {
     height : 40px;
     float : "center";}
 #colpan{
-    colspan="4"
+    colspan : "4"
 }
 #branch_font{
     width : 100% ;
-    height : 40px ;
+    height : 15px ;
     font-size: 150%;
     text-align: left;
+    padding-top: 0px;
 }
 #plus_font{
     width : 100% ;
@@ -337,4 +354,7 @@ table {
     font-size: 120%;
     text-align: left;
     margin : 0px;
+}
+.regular_size{
+    padding: 0px 0px 4px 0px ;
 }
