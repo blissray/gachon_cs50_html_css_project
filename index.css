@@ -170,8 +170,12 @@ footer{
     border-style: solid;
     border-width: 1px;
 }
-.set_to_right {float : right}
-.set_to_left {float : left}
+#set_to_right {
+    text-align : right;
+    float : right;
+    colspan : "4";}
+#set_to_left {text-align : left;}
+#set_to_center{float : center;}
 table {
     height : 20px;
 }
@@ -179,9 +183,11 @@ table {
 .basic_table_frame_set{ width : 100%;
     border-collapse: collapse;
     border : solid 2px #DFDFDF;
-    height : 30px;
+    height : 100px;
     padding : 5px;
+    margin : 5px;
     border-radius: 5px;
+    text-align : center;
 }
 .big_table_frame_set{
     width : 100%;
@@ -190,6 +196,7 @@ table {
     height : 150px;
     padding : 10px;
     border-radius: 5px;
+    text-align : left;
 }
 .middle_size_table_frame_set{
     width : 100%;
@@ -198,8 +205,19 @@ table {
     height : 90px;
     padding : 10px;
     border-radius: 5px;
+    text-align : left;
 }
-
+.top_margin{
+    margin : 1.5% 0% 0% 0% ;
+}
+.bottom_margin{
+    margin : 0% 0% 1.5% 0% ;
+}
+.side_padding{
+    margin : 0;
+    padding-left : 5px;
+    padding-right: 5px;
+}
 #font_blue{
     color : #3D70B6;
 }
@@ -209,9 +227,12 @@ table {
 #light_gray_box{
     background-color : #FAFAF8;
     height : 30px;
+    colspan : "4";
 }
 #blue_box{
     background-color: #E6F1F6;
+    height : 30px;
+    colspan = "4";
 }
 .default_font{
     font-family : BlinkMacSystemFont, Helvetica, Arial ;
@@ -221,14 +242,10 @@ table {
 }
 #black_font{
     font-family : BlinkMacSystemFont, Helvetica, Arial ;
-    font-size : 14px;
+    font-size : 15px;
     color : black;
 }
 
-tr{
-    border-style : 0px,0px,2px,0px;
-    border-color: #DFDFDF;
-}
 #yellow_bottom{
 
 }
@@ -244,11 +261,25 @@ tr{
     type : "button";
     width : 17%;
     height : 30px;
+    padding : 0px 0px 4px 0px;
+    margin : 0px 0px 4px 0px;
+    border-radius: 5px;
+    /*box-shadow: 0;*/
+    background-color : #FAFAF8;
+}
+#twin_icon{
+    type : "button";
+    width : 6%;
+    height : 30px;
     padding : 0px;
     margin : 0px;
     border-radius: 5px;
     /*box-shadow: 0;*/
-    background-color : #FAFAF8;
+    background-color : #48CE31;
+}
+#twin_branch{
+    width : 25px;
+    height : 25px;
 }
 #readme_contents{
      width : 100% ;
@@ -256,4 +287,22 @@ tr{
      text-align: left;
     padding-left:20px;
     font-size: 120%;
+}
+#40height{
+    height : 40px;
+    float : "center";}
+#colpan{
+    colspan="4"
+}
+#branch_font{
+    width : 100% ;
+    height : 40px ;
+    font-size: 150%;
+    text-align: left;
+}
+#plus_font{
+    width : 100% ;
+    height : 40px ;
+    font-size: 120%;
+    text-align: left;
 }
