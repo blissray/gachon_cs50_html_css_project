@@ -6,20 +6,30 @@ div#main{
 /*the bottom section*/
 footer{
     width:920px;
-    height: 20px;
+    height: 60px;
     margin-left: 100px;
     padding-top: 60px;
     border-top: 2px solid #f8f8f8;
     /*display: inline;!**!*/
 }
+.footer_image{
+    float: left;
+    margin-left:150px;
+    margin-top:10px;
+}
 .footer_font{
+
+    padding:0px;
     font-size: 80%;
+
 }
 #left_footer{
+    padding-top:25px;
     float:left;
     display: inline;
 }
 #right-footer{
+    padding-top:25px;
     float: right;
     display:inline;
 }
