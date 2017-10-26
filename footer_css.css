@@ -6,20 +6,30 @@ div#main{
 /*the bottom section*/
 footer{
     width:920px;
-    height: 20px;
+    height: 60px;
     margin-left: 100px;
     padding-top: 60px;
     border-top: 2px solid #f8f8f8;
     /*display: inline;!**!*/
 }
+.footer_image{
+    float: left;
+    margin-left:150px;
+    margin-top:10px;
+}
 .footer_font{
+
+    padding:0px;
     font-size: 80%;
+
 }
 #left_footer{
+    padding-top:25px;
     float:left;
     display: inline;
 }
 #right-footer{
+    padding-top:25px;
     float: right;
     display:inline;
 }
@@ -209,7 +219,6 @@ table {
     height : 30px;
     padding : 0px;
     margin : 100px 0px 0px 0px;
-    border-bottom: ;
 }
 .basic_tr_frame_set{
     width : 100%;
@@ -262,7 +271,7 @@ table {
 #blue_box{
     background-color: #E6F1F6;
     height : 30px;
-    colspan = "4";
+    colspan : "4";
 }
 .default_font{
     font-family : BlinkMacSystemFont, Helvetica, Arial ;
@@ -306,28 +315,22 @@ table {
 #twin_icon{
     margin: 4px 0px 2px 0px;
     float: left;
-    width : 6.7%;
+    width : 40px;
     padding : 10px 0px 18px 0px;
     border-radius: 5px;
     background-color : #48CE31;
-    height: 18px;
+    height: 10px;
 }
 #small_gray_icon{
-    type : "button";
     width : 35px;
     height : 30px;
-    padding : 0px 0px 4px 0px;
-    margin : 0px 0px 0px 0px;
+    /*padding : 10px 0px 4px 0px;*/
+    margin : 5px 0px 0px 0px;
     border-radius: 5px;
     background-color: #F4F4F0;
     float : right;}
 /*}*/
-#twin_branch{
-    padding: 10px 0px 0px 0px ;
-    width : 25px;
-    height : 25px;
-    float: none;
-}
+
 #readme_contents{
      width : 100% ;
      height : 160px ;
@@ -357,4 +360,10 @@ table {
 }
 .regular_size{
     padding: 0px 0px 4px 0px ;
+}
+
+#plus_font{
+
+    padding-top:50px;
+    margin-top:15px;
 }
