@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="hyuna_index.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
     <meta charset="UTF-8">
     <title>Project</title>
 </head>
@@ -9,26 +9,24 @@
 
 
 <div id ="main">
-    <div id ="top_section" class = "github">
-       <img width="120px" src="./svg/logo-github.svg">
-        <span>This Repository</span>
-            <input type="search" value="Search">
-        <tr class = "explore">Explore</tr>
-        <tr class = "features">Features</tr>
-        <tr class = "enterprise">Enterprise</tr>
-        <tr class = "pricing">Pricing</tr>
-        <button type="button" onclick="alert('Sign up!')">Sign up </button>
-        <button type="button" onclick="alert('Sign in!')">Sign in</button>
+    <div id ="top_section" class = "top">
+        <img id = "gh" width="120px" src="./svg/logo-github.svg" >
+        <span class="menu" id="repository">This repository<input type="search" id="top_search" placeholder="Search"></span>
+            <tr class = "explore"><b>Explore &nbsp; </b></tr>
+            <tr class = "features"><b>Features  &nbsp;</b></tr>
+            <tr class = "enterprise"><b>Enterprise  &nbsp;</b></tr>
+            <tr class = "pricing"><b>Pricing  &nbsp;</b></tr>
+        <button class = "left_button" type="button"><b>Sign up </b></button>
+        <button class = "right_button" type="button" ><b>Sign in </b></button>
     </div>
 
 
-
     <div id ="middle" class = "github">
-        <img width ="20px" hight = "10px" src="./svg/repo.svg">
+        <img width ="30px" height = "40px" src="./svg/repo.svg">
              <span>
                  <a class="blue_middle">knowRe</a>
                  <a> / </a>
-                 <a  class="blue_middle border"><strong>WebDevCurriculumv</strong></a>
+                 <a  class="blue_middle"><strong>WebDevCurriculumv</strong></a>
              </span>
         <!--button-->
             <span class="be_left">
@@ -40,7 +38,6 @@
                     <span>6</span></a>
             </span>
     </div>
-
 
     <div id ="second_main" class = "github">
        <div id="left_div" class = "github">

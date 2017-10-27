@@ -1,7 +1,75 @@
-
+* {
+    font-family: Arial;
+}
 div#main{
     width:1024px;
     height: 820px;
+}
+.top {
+    height:5px;
+    padding-top: 10px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+#gh{
+    padding-top: 15px;
+}
+
+#top_search{
+    margin-bottom: 98px;
+    padding-top: 9px;
+    height:24px;
+    position:relative;
+    border-radius:5px;
+    border: 1px solid black;
+    width: 160px;
+}
+.menu {
+    height:28px;
+    border: ridge;
+    border-radius: 5px;
+    background-color: #efefef;
+}
+.left_button{
+    margin-top:25px;
+    float:right;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    border: solid;
+    border-style: groove;
+    border-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    padding: 8px 8px;
+    margin-left: 8px;
+}
+.right_button {
+    margin-top:25px;
+    margin-right: 5px;
+     float:right;
+    border-radius: 5px;
+    border: groove;
+    padding: 8px 8px;
+    margin-left: 8px;
+}
+
+.explore{
+    margin-bottom: 10px;
+    padding-left: 8px;
+    font-size: x-small;
+}
+.features{
+    padding-left: 8px;
+}
+.enterprise {
+    padding-left: 8px;
+}
+
+.pricing {
+    padding-left: 8px;
 }
 /*the bottom section*/
 footer{
