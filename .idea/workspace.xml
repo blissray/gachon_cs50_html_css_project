@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3379dea6-480c-4e1c-91cd-a9b88d77d31e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/svg/clippy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/svg/file-directory.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/svg/git_avatar.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/svg/twin_branch.png" afterPath="$PROJECT_DIR$/svg/twin_branch.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/github_page.html" afterPath="$PROJECT_DIR$/github_page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.css" afterPath="$PROJECT_DIR$/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/svg/file-directory.svg" afterPath="$PROJECT_DIR$/svg/file-directory.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trio_github_page.html" afterPath="$PROJECT_DIR$/trio_github_page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trio_index.css" afterPath="$PROJECT_DIR$/trio_index.css" />
     </list>
     <ignored path="gachon_cs50_html_css_project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="github_page.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="github_page.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/github_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="76" lean-forward="true" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
+            <state relative-caret-position="665">
+              <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
               <folding>
                 <element signature="e#370#376#0" expanded="true" />
                 <element signature="e#391#397#0" expanded="true" />
@@ -67,6 +63,29 @@
                 <marker date="1509068427072" expanded="false" signature="6856:6862" ph=" " />
                 <marker date="1509068427072" expanded="false" signature="7323:7329" ph=" " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trio_github_page.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/trio_github_page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1558">
+              <caret line="32" column="112" lean-forward="true" selection-start-line="32" selection-start-column="112" selection-end-line="32" selection-end-column="112" />
+              <folding>
+                <element signature="e#5592#5598#0" expanded="true" />
+                <element signature="e#6040#6046#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trio_index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trio_index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="377" column="12" lean-forward="true" selection-start-line="377" selection-start-column="12" selection-end-line="377" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -125,6 +144,8 @@
         <option value="$PROJECT_DIR$/hyuna_index.css" />
         <option value="$PROJECT_DIR$/github_page.html" />
         <option value="$PROJECT_DIR$/index.css" />
+        <option value="$PROJECT_DIR$/trio_github_page.html" />
+        <option value="$PROJECT_DIR$/trio_index.css" />
       </list>
     </option>
   </component>
@@ -158,7 +179,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/hyuna_index.css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/trio_index.css" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
@@ -469,18 +490,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/github_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="76" lean-forward="true" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
+        <state relative-caret-position="665">
+          <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
           <folding>
             <element signature="e#370#376#0" expanded="true" />
             <element signature="e#391#397#0" expanded="true" />
@@ -514,6 +527,33 @@
             <marker date="1509068427072" expanded="false" signature="6787:6793" ph=" " />
             <marker date="1509068427072" expanded="false" signature="6856:6862" ph=" " />
             <marker date="1509068427072" expanded="false" signature="7323:7329" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trio_index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="377" column="12" lean-forward="true" selection-start-line="377" selection-start-column="12" selection-end-line="377" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trio_github_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1558">
+          <caret line="32" column="112" lean-forward="true" selection-start-line="32" selection-start-column="112" selection-end-line="32" selection-end-column="112" />
+          <folding>
+            <element signature="e#5592#5598#0" expanded="true" />
+            <element signature="e#6040#6046#0" expanded="true" />
           </folding>
         </state>
       </provider>
