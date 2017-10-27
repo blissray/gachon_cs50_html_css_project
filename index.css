@@ -159,12 +159,11 @@ footer{
 }
 .left_table {
     float: left;
-    height: 50px;
+    height: 1px;
     width: 100%;
     display: inline;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding : 0%;
+    margin : 0px 0px 0px 0px;
+    padding : 0px 0px 0px 0px;
     border-style: none;
     border-width: 1px;}
 
@@ -189,54 +188,50 @@ footer{
     float : right;
     colspan : "4";}
 .set_to_left {text-align : left;}
-.set_to_center{float : center;}
+.set_to_center{text-align : center;}
 table {
     height : 20px;
 }
 /*CSS파일 하나더 적용어떻게 시키나유..?일단 여기 해둘게요 헹*/
 .basic_table_frame_set{ width : 100%;
-    border-collapse: collapse;
-    border : solid 2px #DFDFDF;
-    height : 100px;
-    /*padding : 5px;*/
-    /*margin : 5px;*/
     border-radius: 5px;
+    border : solid 1px #DFDFDF;
+    height : 55px;
+    margin : 0px 0px 5px 0px ;
     text-align : center;
-}
+    }
 .basic_td_frame_set{ width : 100%;
     border-collapse: collapse;
     border : solid 2px #DFDFDF;
     height : 30px;
     padding : 0px;
     margin : 100px 0px 0px 0px;
-    border-bottom: ;
 }
 .basic_tr_frame_set{
     width : 100%;
     border-collapse: collapse;
-    border : solid 2px #DFDFDF;
+    border : solid 1px 1px 1px 1px #DFDFDF;
     height : 30px;
     padding : 100px 0px 0px 0px;
     margin : 5px 0px 0px 0px;
 }
 .big_table_frame_set{
     width : 100%;
-    border-collapse: collapse;
-    border : solid 2px #DFDFDF;
-    height : 150px;
-    padding : 10px 50px 0px 0px;
-    border-radius: 5px;
+    /*border-radius: 5px;*/
+    border : solid 1px #DFDFDF;
+    height : 110px;
+    padding : 0px 0px 0px 5px;
     text-align : left;
-    /*padding-left: 20px;*/
+    border-collapse: collapse;
 }
 .middle_size_table_frame_set{
     width : 100%;
-    border-collapse: collapse;
-    border : solid 2px #DFDFDF;
+    /*border-radius: 3.5px;*/
+    border : solid 1px #DFDFDF;
     height : 90px;
-    padding : 10px;
-    border-radius: 5px;
     text-align : left;
+    margin : 5px 0px 0px 0px;
+    border-collapse: collapse;
 }
 .top_margin{
     margin : 1.5% 0% 0% 0% ;
@@ -270,6 +265,12 @@ table {
     color : #7F7F7F;
 
 }
+.little_big_font{
+    font-family : BlinkMacSystemFont, Helvetica, Arial ;
+    font-size : 17px;
+    color : #7F7F7F;
+
+}
 .black_font{
     font-family : BlinkMacSystemFont, Helvetica, Arial ;
     font-size : 15px;
@@ -278,8 +279,10 @@ table {
 
 #yellow_line{
     width : 100%;
-    height : 10px;
+    height : 5px;
     background-color: #F1E05A;
+    border-radius: 5px;
+    padding : 0px 0px 0px 0px;
 }
 #gray_bottom{
     type : "button";
@@ -306,27 +309,31 @@ table {
 #twin_icon{
     margin: 4px 0px 2px 0px;
     float: left;
-    width : 6.7%;
-    padding : 10px 0px 18px 0px;
+    width : 35px;
+    padding : 4px 0px 21px 0px;
     border-radius: 5px;
     background-color : #48CE31;
-    height: 18px;
+    height: 5px;
 }
 #small_gray_icon{
-    type : "button";
+    margin: 4px 0px 2px 0px;
+    float: left;
     width : 35px;
-    height : 30px;
-    padding : 0px 0px 4px 0px;
-    margin : 0px 0px 0px 0px;
+    padding : 4px 0px 21px 0px;
     border-radius: 5px;
     background-color: #F4F4F0;
+    height: 5px;
     float : right;}
-/*}*/
+.blue_icon {
+    filter :  #80A6CD(100%);
+}
 #twin_branch{
-    padding: 10px 0px 0px 0px ;
-    width : 25px;
-    height : 25px;
-    float: none;
+    width : 20px;
+    height : 20px;
+    padding : 0px 6px 4px 0px;*/
+    margin : 0px 0px 0px 3px;
+    float : right;
+    border-radius: 5px;
 }
 #readme_contents{
      width : 100% ;
@@ -338,8 +345,8 @@ table {
 #40height{
     height : 40px;
     float : "center";}
-#colpan{
-    colspan : "4"
+.colpan{
+    colspan = "4"
 }
 #branch_font{
     width : 100% ;
@@ -355,6 +362,37 @@ table {
     text-align: left;
     margin : 0px;
 }
-.regular_size{
-    padding: 0px 0px 4px 0px ;
+.border_bottom{
+    border-bottom: solid 1px;
+    border-color: lightgray;
+}
+td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.to_the_bottom{
+    padding-top : 10px;
+}
+#left_avatar{
+    width : 20px;
+    height : 20px;
+    /*padding : 4px 0px 4px 0px;*/
+    margin : 0px 0px 0px 3px;
+    float : left;
+    border-radius: 5px;
+}
+#right_avatar{
+    width : 20px;
+    height : 20px;
+    /*padding : 4px 0px 4px 0px;*/
+    margin : 0px 0px 0px 3px;
+    float : right;
+    border-radius: 5px;
+}
+
+.image_size{
+    width : 15px;
+    height : 13px;
+    margin : 2px 3px 3px 7px;
+    float : left;
 }
