@@ -6,14 +6,10 @@ div#main{
     width:1024px;
     height: 820px;
 }
-/*.top {*/
-    /*height:5px;*/
-    /*padding-top: 5px;*/
-    /*border-bottom-style: solid;*/
-    /*border-bottom-width: 1px;*/
-/*}*/
-/*the top section*/
+
 #top_section{
+    /*padding-top:40px;*/
+    padding-bottom:10px;
     height:80px;
     margin-left: 100px;
     margin-right: 50px;
@@ -21,11 +17,12 @@ div#main{
     border-bottom-color: #d3d4d5;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-
 }
 #github_image{
+    padding-top:20px;
     width:110px;
-    padding-top: 15px;
+    padding-bottom: 0px;
+    margin-right:10px;
 }
 
 #top_search{
@@ -38,6 +35,7 @@ div#main{
     width: 120px;
 }
 .menu {
+    border: 2px solid black;
     height:28px;
     border: ridge;
     border-radius: 5px;
@@ -100,14 +98,16 @@ div#main{
     height : 100px;}
 
 #right_div{
+    margin-top:15px;
     height: auto;
-    width: 200px;
+    width: 160px;
     float: right;
     display: inline;
     border-radius: 5px;
     border-style: solid;
     border-width: 1px;
     border-color: rgba(0, 255, 255, 0);
+    margin-right: 40px;
 }
 #http{
     margin-left:15px;
@@ -139,21 +139,25 @@ div#main{
     border-top:2px solid #f8f8f8;
     border-bottom:2px solid #f8f8f8;
     border-right:5px solid orangered;
+    font-size: 15px;
 }
 #issue{
+    font-size: 15px;
     list-style-image: url(./svg/issue-opened.svg) ;}
 
 #pr{
-
+    font-size: 15px;
     list-style-image: url(./svg/git-pull-request.svg);
     padding-bottom: 10px;
     border-bottom: 5px solid #f8f8f8;
 }
 #pulse{
+    font-size: 15px;
     list-style-image: url(./svg/pulse.svg);
 
 }
 #graphs{
+    font-size: 15px;
     list-style-image: url(./svg/graph.svg);
 }
 
@@ -175,8 +179,8 @@ div#main{
 #download{
     padding-right: 15px;
     text-align:center;
-    margin-left:15px;
-    width:170px;
+    margin-left:10px;
+    width:160px;
     height:25px;
 }
 
@@ -188,7 +192,7 @@ div#main{
 #clone{
     padding-right: 15px;
     text-align: center;
-    margin-left: 15px;
+    margin-left: 10px;
     margin-bottom: 10px;
     width:170px;
     height:25px;
@@ -301,8 +305,9 @@ table {
 
 }
 .little_big_font{
+    padding-top:10px;
     font-family : BlinkMacSystemFont, Helvetica, Arial ;
-    font-size : 17px;
+    font-size : 15px;
     color : #7F7F7F;
 
 }
