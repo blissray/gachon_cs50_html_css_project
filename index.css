@@ -6,31 +6,33 @@ div#main{
     width:1024px;
     height: 820px;
 }
+
 #top_section{
     height:80px;
     margin-left: 100px;
     margin-right: 50px;
-    background: #fafbfc;
-    border-bottom-color: #d3d4d5;
+    background: #f5f5f5;
+    border-bottom-color: #ededed;
     border-bottom-style: solid;
     border-bottom-width: 1px;
 
 }
 #github_image{
-    width:110px;
+    width:100px;
     padding-top: 15px;
 }
 
 #top_search{
-    margin-bottom: 98px;
-    padding-top: 9px;
-    height:24px;
-    position:relative;
     border-radius:5px;
-    border: 1px solid white;
-    width: 120px;
+    border: 1px groove white;
 }
+#font_color{
+    color: #a0a0a0;
+    background-color: #eeeeee;
+}
+
 .menu {
+    display: inline;
     height:28px;
     border: ridge;
     border-radius: 5px;
@@ -60,8 +62,10 @@ div#main{
     padding: 8px 8px;
     margin-left: 8px;
 }
-#middle{
-    height:50px;
+.middle{
+    margin-top:10px;
+    padding-bottom:6px;
+    height:40px;
     margin-left: 100px;
     margin-right: 50px;
     border-bottom-color: #d3d4d5;
@@ -69,22 +73,31 @@ div#main{
     border-bottom-width: 1px;
     padding-top:15px;
     color: #4d81c4;
+    position: relative;
+
+}
+#book{
+    position: absolute;
+    width : 30px;
+    height : 37px;
+}
+#give_margin{
+    margin-left:45px;
+    margin-bottom: 34px;
+    padding-bottom: 34px;
 }
 .blue_middle{
     font-size: large;
 }
 #watch{
-    /*box-shadow: 0;*/
     width : 80px;
     height : 25px;
     background-color : #F4F4F0;
-    /*padding : 10px 0px 10px 5px;*/
     border-radius: 5px 0px 0px 5px;
     border :1px solid;
     border-color: #9F9F9F;
     margin : 0px 0px 0px 5px;
-    padding-bottom: 10px;
-    /*padding : 3px;*/
+    /*padding-bottom: 10px;*/
 }
 .star{
     width : 65px;
@@ -94,7 +107,6 @@ div#main{
     border :1px solid;
     border-color: #9F9F9F;
     margin : 0px 0px 0px 5px;
-    padding-bottom: 10px;
 }
 .watch_num{
     height: 25px;
@@ -142,6 +154,7 @@ div#main{
     border-bottom:5px solid #f8f8f8;
     border-radius:5px;
     margin-left:5px;
+    width:155px;
 }
 .sentence{
     font-size: 11px;
@@ -195,7 +208,7 @@ div#main{
 #download{
     padding-right: 15px;
     text-align:center;
-    margin-left:15px;
+    margin-left:10px;
     width:170px;
     height:25px;
 }
@@ -208,7 +221,7 @@ div#main{
 #clone{
     padding-right: 15px;
     text-align: center;
-    margin-left: 15px;
+    margin-left: 10px;
     margin-bottom: 10px;
     width:170px;
     height:25px;
@@ -266,7 +279,7 @@ table {
 .basic_tr_frame_set{
     width : 100%;
     border-collapse: collapse;
-    border : solid 1px 1px 1px 1px #DFDFDF;
+    border : solid 1px #DFDFDF;
     border : solid 1px #DFDFDF;
     height : 30px;
     padding : 100px 0px 0px 0px;
@@ -401,7 +414,7 @@ table {
     height : 40px;}
 
 .colpan{
-    colspan = "4"
+    colspan : "4"
     }
 
 #branch_font{
